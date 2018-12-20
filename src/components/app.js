@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
 import NavBar from './navbar';
+import Footer from './footer';
 
 export default class App extends Component {
   render() {
@@ -8,8 +9,10 @@ export default class App extends Component {
       <div className='app'>
         <Header />
         <NavBar />
-        <h1>Hi.....</h1>
-        <h2>Welcome to my page</h2>
+        <h1>  </h1>
+        <p> Full-Stack Developer who is focused<br/>on writing clean, good and<br/>
+							efficient code. Love HTML5, CSS3, Python, React,<br/>and JavaScript.</p>
+        <Footer />
       </div>
     );
   }

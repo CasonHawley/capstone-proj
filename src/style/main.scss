@@ -1,10 +1,11 @@
 
 @import './header.scss';
+@import './navbar.scss';
+@import './footer.scss';
 
 
 
 html {
-    margin: 0%;
     font-size: 62.5%; // 1rem is 10px
 }
 
@@ -20,6 +21,7 @@ html {
 body {
     overflow-x: hidden;
     font-weight: normal;
+    margin: 0%;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,9 +30,9 @@ body {
 }
 
 .app {
-    margin-top: 2rem;
     height: 100vh;
     display: grid;
     justify-items: center;
     background-color: lightsteelblue;
+    
 }
