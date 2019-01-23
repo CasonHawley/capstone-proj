@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header =()=>{
-    const message =["WELCOME TO MY WORLD","THIS IS MY WEBSITE","I AM AT YOUR SERVICE"];
+    const message =["WELCOME TO MY <CODE/>",];
     let i =0 ;
     let jsxArray = [];
     for(i=0; i<message.length;i++){

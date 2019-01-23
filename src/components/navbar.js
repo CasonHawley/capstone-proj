@@ -3,9 +3,9 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div className="navbar">
-            `Home
-            Projects
-            Contact
+            <a>Home</a>
+            <a>Projects</a>
+            <a>Contact</a>
         </div>
     )
 }
