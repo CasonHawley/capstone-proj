@@ -8,7 +8,7 @@ const Contact = () => {
                 <fieldset>
                     <input type="text" name="user-name" placeholder="Name"/>
                     <input type="email" name="user-email" placeholder="Email"/>
-                    <textarea></textarea>
+                    
                 </fieldset>
                 <button class="btn">Send</button>
             </form>
