@@ -1,13 +1,19 @@
 import React from 'react';
 
-const Header = () => {
-        return (
-            <div className="header">
-                <a href="" className="typewrite" data-period="2000" data-type="[ &quot;build courses.&quot;, &quot;design apps.&quot;, &quot;develop websites.&quot;, &quot;take photos&quot;, &quot;develop apps&quot;, &quot;develop websites&quot; ]">
-                <span className="wrap">I develop websites.</span></a>
-            </div>
-        );
+const Header =()=>{
+    const message =["WELCOME TO MY WORLD","THIS IS MY WEBSITE","I AM AT YOUR SERVICE"];
+    let i =0 ;
+    let jsxArray = [];
+    for(i=0; i<message.length;i++){
+      jsxArray.push(
+        <div className='background'>
+          <h1 className="typewriter">
+              {message[i]}    
+          </h1>
+        </div>
+       );
     }
-
+    return jsxArray;
+  }
 
 export default Header;

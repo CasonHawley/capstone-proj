@@ -4,3 +4,41 @@
     width: 100vw;
     justify-items: center;
 }
+
+.background{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+canvas{width: 60;
+
+
+}
+
+.typewriter {
+  text-align: center;
+  overflow: hidden; 
+  border-right: .15em solid black; 
+  color: black;
+  font-family: Courier New;
+  top:30%;
+  font-size: 40px;
+  white-space: nowrap; 
+  letter-spacing: .30em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width:20% }
+  to { width: 50% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}
